@@ -1,0 +1,82 @@
+@import "variables.less";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+header {
+  height: 100%;
+  background: @header-bg;
+  color: @header-color;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.social-buttons {
+  margin-top: 50px;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.btn-outline {
+  color: @social-button-color;
+  // font-size: 20px;
+  border: solid 2px @social-button-border;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  // margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: @social-button-hover-color;
+  background: @social-button-hover-bg;
+}
+
+.about {
+  margin: 20px 0;
+}
+
+section.specialty .skill .name {
+  // font-size: 2em;
+  margin-bottom: 10px;
+}
+section.specialty .skill .progress {
+  height: 30px;
+}
+section.specialty .skill .progress .progress-bar {
+  line-height: 30px;
+}
+
+section.specialty.first {
+  background-color: @section-specialty-first-bg;
+  color: @section-specialty-first-color;
+}
+
+section.specialty.second {
+  background-color: @section-specialty-second-bg;
+  color: @section-specialty-second-color;
+}
+
+section.specialty.third {
+  background-color: @section-specialty-third-bg;
+  color: @section-specialty-third-color;
+}
+
+section.contact {
+  background-color: @section-contact-bg;
+  color: @section-contact-color;
+}

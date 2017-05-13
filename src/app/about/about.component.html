@@ -1,0 +1,18 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center avatar">
+        <p>
+          <img src="https://www.gravatar.com/avatar/d83a47c06845684f2df36fcf6fa55331?s=200" alt="Felipe Franco" title="Felipe Franco"
+            class="img-circle">
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about">
+        <ul>
+          <li *ngFor="let line of resume.about" [innerHTML]="line"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

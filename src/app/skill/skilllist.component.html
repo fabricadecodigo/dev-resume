@@ -1,0 +1,26 @@
+<section class="specialty" *ngFor="let specialty of resume.specialties; let i = index;" [ngClass]="specialty.cssClass">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <h2>{{ specialty.name }}</h2>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="list-unstyled">
+          <li *ngFor="let skill of specialty.skills">
+            <div class="skill">
+              <div class="name">{{ skill.name }}</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="skill.level" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ 'width': skill.level + '%' }">
+                  {{ skill.level }}%
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

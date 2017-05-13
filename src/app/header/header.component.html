@@ -1,0 +1,53 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <h1>{{ resume.name }}</h1>
+        <h2>{{ resume.shortDescription }}</h2>
+
+        <!--Social buttons-->
+        <div class="social-buttons">
+          <ul class="list-inline">
+            <li *ngIf="resume.social.facebook != ''">
+              <a href="{{ resume.social.facebook }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">Facebook</span>
+                <i class="fa fa-fw fa-facebook fa-2x"></i>
+              </a>
+            </li>
+            <li *ngIf="resume.social.googlePlus != ''">
+              <a href="{{ resume.social.googlePlus }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">Google Plus</span>
+                <i class="fa fa-fw fa-google-plus fa-2x"></i>
+              </a>
+            </li>
+            <li *ngIf="resume.social.twitter != ''">
+              <a href="{{ resume.social.twitter }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">Twitter</span>
+                <i class="fa fa-fw fa-twitter fa-2x"></i>
+              </a>
+            </li>
+            <li *ngIf="resume.social.linkedin != ''">
+              <a href="{{ resume.social.linkedin }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">Linked In</span>
+                <i class="fa fa-fw fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li *ngIf="resume.social.youtube != ''">
+              <a href="{{ resume.social.youtube }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">YouTube</span>
+                <i class="fa fa-fw fa-youtube fa-2x"></i>
+              </a>
+            </li>
+            <li *ngIf="resume.social.github != ''">
+              <a href="{{ resume.social.github }}" class="btn-social btn-outline" target="_blank">
+                <span class="sr-only">Github</span>
+                <i class="fa fa-fw fa-github fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

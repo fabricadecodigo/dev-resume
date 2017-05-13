@@ -1,0 +1,32 @@
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <h2>Contato</h2>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+        <form method="POST" action="https://formspree.io/{{ resume.mail }}">
+
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" rows="3" id="mensagem" name="mensagem"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

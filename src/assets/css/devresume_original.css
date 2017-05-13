@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 9em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+header {
+  height: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+section {
+  padding: 50px 0;
+}
+
+.social-buttons {
+  margin: 50px 0 0 0;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #1ea3ff;
+  background: white;
+  border: solid 2px white;
+}
+
+.about {
+  margin: 20px 0;
+}
+
+section.specialty .skill .name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+section.specialty .skill .progress {
+  height: 30px;
+}
+section.specialty .skill .progress .progress-bar {
+  line-height: 30px;
+}
+
+section.specialty.first {
+  background-color: #edeeef;
+  color: #000;
+}
+
+section.specialty.second {
+  background-color: #fff;
+  color: #000;
+}
+
+section.specialty.third {
+  background-color: #424242;
+  color: #fff;
+}
+
+section.contact {
+  background-color: #fff;
+  color: #000;
+}

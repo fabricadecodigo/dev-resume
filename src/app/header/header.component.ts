@@ -3,7 +3,7 @@ import { ResumeService } from '../resume.service';
 import { Resume } from '../resume';
 
 @Component({
-  selector: 'header-component',
+  selector: 'app-header-component',
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {

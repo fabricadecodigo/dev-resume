@@ -1,18 +1,19 @@
-import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent }  from './app.component';
-import { HeaderComponent }  from './header/header.component';
-import { FooterComponent }  from './footer/footer.component';
-import { AboutComponent }  from './about/about.component';
-import { ContactComponent }  from './contact/contact.component';
-import { SkillListComponent }  from './skill/skilllist.component';
-
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
+import { AppComponent } from './app.component';
+
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { SkillListComponent } from './skill/skilllist.component';
+
 import { ResumeService } from './resume.service';
 
 @NgModule({
-  imports:      [ BrowserModule, HttpModule ],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -21,6 +22,14 @@ import { ResumeService } from './resume.service';
     ContactComponent,
     SkillListComponent
   ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [
+    ResumeService
+  ],
   bootstrap: [
     AppComponent,
     HeaderComponent,
@@ -28,9 +37,6 @@ import { ResumeService } from './resume.service';
     AboutComponent,
     ContactComponent,
     SkillListComponent
-  ],
-  providers: [
-    ResumeService
   ]
 })
 export class AppModule { }

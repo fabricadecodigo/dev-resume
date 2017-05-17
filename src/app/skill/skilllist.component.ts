@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-
 import { ResumeService } from '../resume.service';
 import { Resume } from '../resume';
 
 @Component({
-  selector: 'skill-list-component',
+  selector: 'app-skill-list-component',
   templateUrl: './skilllist.component.html'
 })
 export class SkillListComponent  {

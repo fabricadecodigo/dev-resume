@@ -3,7 +3,7 @@ import { ResumeService } from '../resume.service';
 import { Resume } from '../resume';
 
 @Component({
-  selector: 'contact-component',
+  selector: 'app-contact-component',
   templateUrl: './contact.component.html'
 })
 export class ContactComponent  {

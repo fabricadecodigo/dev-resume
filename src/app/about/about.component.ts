@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-
 import { ResumeService } from '../resume.service';
 import { Resume } from '../resume';
 
 @Component({
-  selector: 'about-component',
+  selector: 'app-about-component',
   templateUrl: './about.component.html'
 })
 export class AboutComponent  {

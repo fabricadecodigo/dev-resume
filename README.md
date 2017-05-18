@@ -23,32 +23,36 @@ Fork this repository in your account and change the repository name to your name
 
 On the section **GitHub Pages** select the opion **"master branch /docs folder"** in the field source and click in save.
 
+**Step 3: Install dependencies**
 
-**Step 3: Customizing with your data**
+- Run the command: **_npm install_**
+
+
+**Step 4: Customizing with your data**
 
 To modify you data you can open the class **src/app/resume.ts**, change the values in constructor method and save.
 
 
-**Step 4: Customizing the appearance**
+**Step 5: Customizing the appearance**
 
 To modify the colors you can open the file **src/assets/less/variables.less**, change with your preference.
 - Run the command: **_gulp less_** to generate the file devresume.css
 - Run the command **_gulp minify-css_** to generate the file devresume.min.css
 
 
-** Step 5: Run**
+** Step 6: Run**
 
 To run the project to you test the changes whate you are doing:
 - Run the command: **_ng serve_**
 
 
-** Step 6: Generate production version**
+** Step 7: Generate production version**
 
 To generate production version in the docs folder:
 - Run the command: **_ng build --prod_**
 
 
-** Step 5: Finish**
+** Step 8: Finish**
 
 To finish commit and push.
 

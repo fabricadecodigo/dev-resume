@@ -13,11 +13,11 @@ export class Resume {
 
     this.about = [];
     this.about.push('Olá, meu nome é Felipe e sou criador desse projeto em Angular.');
-    this.about.push('Esse projeto é para você programador para criar um currículo online para colocar todos os seus skills.');
-    this.about.push('Você pode incluir infomações das suas redes sociais.');
+    this.about.push('Esse projeto é para você programador para criar um currículo online para colocar todos os seus ' +
+      'skills e informações das suas redes sociais.');
     this.about.push('Abaixo você vai ver um exemplo de como são exibidas as especilidades e cada skill em uma especialidade.');
-    this.about.push('E por fim tem um formulario de contato que utiliza o ' +
-      '<a href="https://formspree.io/" target="_blank">https://formspree.io/</a> para enviar e-mail para você.');
+    this.about.push('E por fim, tem um formulario de contato que utiliza o ' +
+      '<a href="https://formspree.io/" target="_blank">https://formspree.io/</a> para entrarem em contato com você.');
     this.about.push('Para mais conteúdos como esse, acesse o blog ' +
       '<a href="http://www.fabricadecodigo.com" target="_blank">Fábrica de Código</a>');
 

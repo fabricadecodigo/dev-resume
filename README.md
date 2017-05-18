@@ -40,19 +40,19 @@ To modify the colors you can open the file **src/assets/less/variables.less**, c
 - Run the command **_gulp minify-css_** to generate the file devresume.min.css
 
 
-** Step 6: Run**
+**Step 6: Run**
 
 To run the project to you test the changes whate you are doing:
 - Run the command: **_ng serve_**
 
 
-** Step 7: Generate production version**
+**Step 7: Generate production version**
 
 To generate production version in the docs folder:
 - Run the command: **_ng build --prod_**
 
 
-** Step 8: Finish**
+**Step 8: Finish**
 
 To finish commit and push.
 

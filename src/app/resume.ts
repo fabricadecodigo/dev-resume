@@ -7,72 +7,67 @@ export class Resume {
   public specialties: Specialty[];
 
   constructor() {
-    this.name = 'Fábrica de Código';
-    this.shortDescription = 'Um blog sobre programação';
-    this.mail = 'contato@fabricadecodigo.com';
+    this.name = 'Felipe Franco';
+    this.shortDescription = 'Full stack web developer';
+    this.mail = 'feliperfranco@gmail.com';
 
     this.about = [];
-    this.about.push('Olá, meu nome é Felipe e sou criador desse projeto em Angular.');
-    this.about.push('Esse projeto é para você programador para criar um currículo online para colocar todos os seus ' +
-      'skills e informações das suas redes sociais.');
-    this.about.push('Abaixo você vai ver um exemplo de como são exibidas as especilidades e cada skill em uma especialidade.');
-    this.about.push('E por fim, tem um formulario de contato que utiliza o ' +
-      '<a href="https://formspree.io/" target="_blank">https://formspree.io/</a> para entrarem em contato com você.');
-    this.about.push('Para mais conteúdos como esse, acesse o blog ' +
+    this.about.push('Olá, meu nome é Felipe, sou graduado em Sistemas de Informação e MBA em Gerência de Projetos de TI.');
+    this.about.push('Eu sou um Full Stack Web Developer com experiência em todos os aspectos de desenvolvimento de software, ' +
+      'incluindo analise de requisitos, design, desenvolvimento e suporte a produção.');
+    this.about.push('Atualmente trabalho como desenvolvedor na Thomson Reuters, uma das maiores empresas do mundo.');
+    this.about.push('E sou criador de um blog sobre desenvolvimento de software, o' +
       '<a href="http://www.fabricadecodigo.com" target="_blank">Fábrica de Código</a>');
 
     this.social = new SocialMedia();
     this.social.facebook = 'https://www.facebook.com/fabricadecodigo';
     this.social.github = 'https://github.com/fabricadecodigo';
-    this.social.googlePlus = 'https://plus.google.com/u/0/100131878169391547528';
+    this.social.googlePlus = '';
     this.social.linkedin = 'https://www.linkedin.com/in/feliperfranco/';
-    this.social.twitter = 'https://twitter.com/feliperfranco';
+    this.social.twitter = '';
     this.social.youtube = 'https://www.youtube.com/channel/UCXepHP9GmUtF73xtEIa9RWA';
     this.specialties = [];
 
     // Specialites
     this.specialties.push(new Specialty('Front-end', 'first', [
-      new Skill('JavaScript', 10),
-      new Skill('HTML 5', 20),
-      new Skill('CSS', 30),
-      new Skill('Vue', 40),
-      new Skill('ReactJS', 50),
-      new Skill('Angular', 60)
+      new Skill('JavaScript', 80),
+      new Skill('HTML 5', 99),
+      new Skill('CSS', 90),
+      new Skill('ReactJS', 10),
+      new Skill('Angular 1', 90),
+      new Skill('Angular 2', 50)
     ]));
 
     this.specialties.push(new Specialty('Back-end', 'second', [
-      new Skill('C#', 10),
-      new Skill('PHP', 20),
-      new Skill('Java', 40),
-      new Skill('ASP NET', 50),
-      new Skill('Node', 60)
+      new Skill('C#', 99),
+      new Skill('PHP', 30),
+      new Skill('Java', 30),
+      new Skill('ASP NET MVC', 99),
+      new Skill('ASP NET Web Api', 99),
+      new Skill('Node', 30),
+      new Skill('Firebase', 50)
     ]));
 
     this.specialties.push(new Specialty('Mobile', 'third', [
-      new Skill('Android', 10),
-      new Skill('iOS', 20),
-      new Skill('Apache Cordova', 30),
-      new Skill('Ionic Framework', 40),
-      new Skill('Phonegap', 50)
+      new Skill('Android', 20),
+      new Skill('Apache Cordova', 90),
+      new Skill('Ionic Framework', 99)
     ]));
 
     this.specialties.push(new Specialty('Database', 'first', [
-      new Skill('SQL Server', 10),
-      new Skill('Oracle', 20),
-      new Skill('PostgreSQL', 30),
-      new Skill('MongoDB', 40)
+      new Skill('SQL Server', 80),
+      new Skill('Oracle', 30)
     ]));
 
     this.specialties.push(new Specialty('DevOps', 'second', [
       new Skill('Vagrant', 10),
-      new Skill('Docker', 20),
-      new Skill('Windows Azure', 30),
-      new Skill('Amazon Web Services Cloud', 40)
+      new Skill('Docker', 10),
+      new Skill('Windows Azure', 20)
     ]));
 
     this.specialties.push(new Specialty('Metodologias', 'third', [
-      new Skill('Scrum', 10),
-      new Skill('Kanban', 20)
+      new Skill('Scrum', 90),
+      new Skill('Kanban', 90)
     ]));
   }
 }

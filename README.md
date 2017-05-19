@@ -12,6 +12,8 @@ All credits abaout the ideia for [Wendell Adriel.](https://github.com/WendellAdr
 
 This project was created using Angular 2, less, gulp and Angular CLI.
 
+**If you need a example, you can see my resume in https://github.com/fabricadecodigo/feliperfranco**
+
 # How to use
 
 **Step 1: Fork this repository**
